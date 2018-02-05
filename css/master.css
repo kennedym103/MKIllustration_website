@@ -1,0 +1,84 @@
+
+input,
+select,
+textarea,
+a {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+.navbar {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.navbar-brand {
+  width: 70px !important;
+  height: auto;
+  color: #595959 !important;
+}
+
+.navbar-brand span {
+  font-weight: 500;
+  position: relative;
+  top: -29px;
+  padding-left: 5px;
+}
+
+.nav-link {
+  font-size: 12px;
+  font-weight: bold;
+  color: #595959 !important;
+}
+
+.jumbotron {
+  padding-top: 5rem;
+}
+
+.card {
+  box-shadow: 0px 0px 20px rgba(0,0,0, .3);
+}
+
+.card-title {
+  color: #595959;
+  font-weight: bold;
+  font-size: 12px;
+  transition: .25s;
+}
+
+.card-text {
+  color: #707070;
+  font-size: 11px;
+}
+
+.card-img-container:hover, .card-img-container:focus {
+  text-decoration: none !important;
+}
+
+.card-yr {
+  color: #707070;
+  font-size: 9px;
+  flex: row;
+  width: 49% !important;
+  margin: 0 !important;
+  padding-top: 15px;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.btn-type {
+  background-color: #ec7e60;
+  font-size: 10px;
+  color: #fff;
+  border-radius: 0px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-left: auto;
+  }
+ }

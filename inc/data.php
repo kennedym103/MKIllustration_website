@@ -1,28 +1,32 @@
 <?php
 $catalog = array();
 $catalog[101] = [
-	"title" => "A Design Patterns: Elements of Reusable Object-Oriented Software",
-	"img" => "img/media/design_patterns.jpg",
-    "genre" => "Tech",
-    "format" => "Paperback",
-    "year" => 1994,
-    "category" => "Books",
-    "authors" => [
-        "Erich Gamma",
-        "Richard Helm",
-        "Ralph Johnson",
-        "John Vlissides"
-    ],
+	"title" => "UI-Design: Dashboard",
+	"crd_img" => "img/crd-img/ui-design-crd.jpg",
+	"img" => "img/media/ui-design-full.jpg",
+  "type" => "UI / Application Dev",
+  "medium" => "Medium: Photoshop and Illustrator",
+  "year" => 1994,
+	"description" => "Martin had the opportunity to show off a potential user interface for a enterprise application. Martin built a 3d mockup using smart objects in photoshop to create a pixel perfect representation of a flat ui. The result was a great piece of marketing collateral for SharpHat to present to potential clients.",
+  "category" => "UI",
+  "authors" => [
+      "Erich Gamma",
+      "Richard Helm",
+      "Ralph Johnson",
+      "John Vlissides"
+  ],
     "publisher" => "Prentice Hall",
     "isbn" => '978-0201633610'
 ];
 $catalog[102] = [
-    "title" => "Clean Code: A Handbook of Agile Software Craftsmanship",
-    "img" => "img/media/clean_code.jpg",
-    "genre" => "Tech",
-    "format" => "Ebook",
+    "title" => "UI-Design: Dashboard",
+		"crd_img" => "img/crd-img/ui-design-crd.jpg",
+		"img" => "img/media/ui-design-full.jpg",
+    "type" => "UI / Application Dev",
+    "medium" => "Medium: Photoshop and Illustrator",
     "year" => 2008,
-    "category" => "Books",
+		"description" => "Martin had the opportunity to show off a potential user interface for a enterprise application. Martin built a 3d mockup using smart objects in photoshop to create a pixel perfect representation of a flat ui. The result was a great piece of marketing collateral for SharpHat to present to potential clients.",
+    "category" => "UI",
     "authors" => [
         "Robert C. Martin"
     ],
@@ -30,12 +34,14 @@ $catalog[102] = [
     "isbn" => '978-0132350884'
 ];
 $catalog[103] = [
-    "title" => "Refactoring: Improving the Design of Existing Code",
-    "img" => "img/media/refactoring.jpg",
-    "genre" => "Tech",
-    "format" => "Hardcover",
+    "title" => "UI-Design: Dashboard",
+		"crd_img" => "img/crd-img/ui-design-crd.jpg",
+		"img" => "img/media/ui-design-full.jpg",
+    "type" => "UI / Application Dev",
+    "medium" => "Medium: Photoshop and Illustrator",
     "year" => 1999,
-    "category" => "Books",
+		"description" => "Martin had the opportunity to show off a potential user interface for a enterprise application. Martin built a 3d mockup using smart objects in photoshop to create a pixel perfect representation of a flat ui. The result was a great piece of marketing collateral for SharpHat to present to potential clients.",
+    "category" => "UI",
     "authors" => [
         "Martin Fowler",
         "Kent Beck",
@@ -47,26 +53,28 @@ $catalog[103] = [
     "isbn" => '978-0201485677'
 ];
 $catalog[104] = [
-    "title" => "The Clean Coder: A Code of Conduct for Professional Programmers",
-    "img" => "img/media/clean_coder.jpg",
-    "genre" => "Tech",
-    "format" => "Audio",
+    "title" => "UI-Design: Dashboard",
+		"crd_img" => "img/crd-img/ui-design-crd.jpg",
+		"img" => "img/media/ui-design-full.jpg",
+    "type" => "UI / Application Dev",
+    "medium" => "Medium: Photoshop and Illustrator",
     "year" => 2011,
-    "category" => "Books",
+		"description" => "Martin had the opportunity to show off a potential user interface for a enterprise application. Martin built a 3d mockup using smart objects in photoshop to create a pixel perfect representation of a flat ui. The result was a great piece of marketing collateral for SharpHat to present to potential clients.",
+    "category" => "UI",
     "authors" => [
         "Robert C. Martin"
     ],
     "publisher" => "Prentice Hall",
     "isbn" => '007-6092046981'
 ];
-//Movies
+//Branding
 $catalog[201] = [
     "title" => "Forrest Gump",
     "img" => "img/media/forest_gump.jpg",
-    "genre" => "Drama",
-    "format" => "DVD",
+    "type" => "Drama",
+    "medium" => "DVD",
     "year" => 1994,
-    "category" => "Movies",
+    "category" => "branding",
     "director" => "Robert Zemeckis",
     "writers" => [
         "Winston Groom",
@@ -82,10 +90,10 @@ $catalog[201] = [
 $catalog[202] = [
     "title" => "Office Space",
     "img" => "img/media/office_space.jpg",
-    "genre" => "Comedy",
-    "format" => "Blu-ray",
+    "type" => "Comedy",
+    "medium" => "Blu-ray",
     "year" => 1999,
-    "category" => "Movies",
+    "category" => "branding",
     "director" => "Mike Judge",
     "writers" => [
         "William Goldman"
@@ -102,10 +110,10 @@ $catalog[202] = [
 $catalog[203] = [
     "title" => "The Lord of the Rings: The Fellowship of the Ring",
     "img" => "img/media/lotr.jpg",
-    "genre" => "Drama",
-    "format" => "Blu-ray",
+    "type" => "Drama",
+    "medium" => "Blu-ray",
     "year" => 2001,
-    "category" => "Movies",
+    "category" => "branding",
     "director" => "Peter Jackson",
     "writers" => [
         "J.R.R. Tolkien",
@@ -125,10 +133,10 @@ $catalog[203] = [
 $catalog[204] = [
     "title" => "The Princess Bride",
     "img" => "img/media/princess_bride.jpg",
-    "genre" => "Comedy",
-    "format" => "DVD",
+    "type" => "Comedy",
+    "medium" => "DVD",
     "year" => 1987,
-    "category" => "Movies",
+    "category" => "branding",
     "director" => "Rob Reiner",
     "writers" => [
         "William Goldman"
@@ -146,41 +154,41 @@ $catalog[204] = [
         "Billy Crystal"
     ]
 ];
-//Music
+//Illustration
 $catalog[301] = [
     "title" => "Beethoven: Complete Symphonies",
     "img" => "img/media/beethoven.jpg",
-    "genre" => "Clasical",
-    "format" => "CD",
+    "type" => "Clasical",
+    "medium" => "CD",
     "year" => 2012,
-    "category" => "Music",
+    "category" => "illustration",
     "artist" => "Ludwig van Beethoven"
 ];
 $catalog[302] = [
     "title" => "Elvis Forever",
     "img" => "img/media/elvis_presley.jpg",
-    "genre" => "Rock",
-    "format" => "Vinyl",
+    "type" => "Rock",
+    "medium" => "Vinyl",
     "year" => 2015,
-    "category" => "Music",
+    "category" => "illustration",
     "artist" => "Elvis Presley"
 ];
 $catalog[303] = [
     "title" => "No Fences",
     "img" => "img/media/garth_brooks.jpg",
-    "genre" => "Country",
-    "format" => "Cassette",
+    "type" => "Country",
+    "medium" => "Cassette",
     "year" => 1990,
-    "category" => "Music",
+    "category" => "illustration",
     "artist" => "Garth Brooks"
 ];
 $catalog[304] = [
     "title" => "The Very Thought of You",
     "img" => "img/media/nat_king_cole.jpg",
-    "genre" => "Jaz",
-    "format" => "MP3",
+    "type" => "Jaz",
+    "medium" => "MP3",
     "year" => 2008,
-    "category" => "Music",
+    "category" => "illustration",
     "artist" => "Nat King Cole"
 ];
 ?>
