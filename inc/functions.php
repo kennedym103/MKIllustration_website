@@ -9,7 +9,7 @@ function get_item_html($id, $item) {
   . $item["title"] . "</h5><p class='card-text'>"
   . $item["medium"] . "</p>"
   . "<div class='btn-container'><p class='card-yr'> Project completed in "
-  . $item["year"] . "</p><div class='ml-auto btn btn-type'>"
+  . $item["year"] . "</p><div class='ml-auto btn btn-type crd-btn'>"
   . $item["type"] . "</div></div>"
   . "</div></a></li>";
 

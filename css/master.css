@@ -6,6 +6,18 @@ a {
     font-family: 'Open Sans', sans-serif !important;
 }
 
+th label {
+  font-weight: 500 !important;
+}
+
+form td input, form textarea {
+    border-radius: 0px;
+}
+
+form td {
+  padding-right: 0px;
+}
+
 .bg-light {
   background-color: #ffffff !important;
 }
@@ -51,6 +63,7 @@ a {
 .card-text {
   color: #707070;
   font-size: 11px;
+  min-height: 50px;
 }
 
 .card-img-container:hover, .card-img-container:focus {
@@ -64,10 +77,13 @@ a {
   width: 49% !important;
   margin: 0 !important;
   padding-top: 15px;
+  position: relative;
+  bottom: 0;
 }
 
 .btn-container {
   display: flex;
+  position: relative;
 }
 
 .btn-type {
@@ -75,6 +91,18 @@ a {
   font-size: 10px;
   color: #fff;
   border-radius: 0px;
+}
+
+.btn-submit {
+  background-color: #ec7e60 !important;
+  font-size: 10px;
+  color: #fff;
+  border-radius: 0px !important;
+}
+
+.suggest-text {
+  width: 475px;
+  margin: 34px auto;
 }
 
 @media (max-width: 768px) {

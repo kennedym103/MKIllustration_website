@@ -46,7 +46,7 @@
 			<li class="nav-item UI"><a class="nav-link" href="catalog.php?cat=UI">UI / Application Dev</a></li>
 			<li class="nav-item branding"><a class="nav-link" href="catalog.php?cat=branding">Branding & Print Design</a></li>
 			<li class="nav-item illustration"><a class="nav-link" href="catalog.php?cat=illustration">Illustration</a></li>
-			<li class="nav-item suggest"><a class="nav-link" href="suggest.php">Suggest</a></li>
+			<li class="nav-item suggest"><a class="nav-link" href="suggest.php">Contact</a></li>
 		</ul>
 	</div>
 </nav>

@@ -77,12 +77,12 @@ $section = "suggest";
 include("inc/header.php"); ?>
 
 <div class="section page">
-    <div class="wrapper">
+    <div class="container">
         <h1>Suggest a Media Item</h1>
         <?php if (isset($_GET["status"]) && $_GET["status"] == "thanks") {
             echo "<p>Thanks for the email! I&rsquo;ll check out your suggestion shortly!</p>";
         } else { ?>
-        <p>If you think there is something I&rsquo;m missing, let me know! Complete the form to send me an email.</p>
+        <p class="suggest-text">Reach out to me, I'm always looking for interesting projects! Complete the form to send me an email.</p>
         <form method="post" action="suggest.php">
             <table>
             <tr>
@@ -94,7 +94,7 @@ include("inc/header.php"); ?>
                 <td><input type="text" id="email" name="email" /></td>
             </tr>
             <tr>
-                <th><label for="name">Suggest Item Details</label></th>
+                <th><label for="name">Subject</label></th>
                 <td><textarea name="details" id="details"></textarea></td>
             </tr>
             <tr style="display:none">
@@ -103,7 +103,7 @@ include("inc/header.php"); ?>
                 <p>Please leave this field blank</p></td>
             </tr>
             </table>
-            <input type="submit" value="Send" />
+            <input class="btn-submit" type="submit" value="Send" />
         </form>
         <?php } ?>
     </div>
