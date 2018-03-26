@@ -33,9 +33,11 @@ $section = null;
         <img class="img-fluid" src="<?php echo $item["img"]; ?>"  alt="<?php echo $item["title"] ?>" />
       </span>
     </div>
-    <div class="media-details">
-      <h1><?php echo $item["title"]; ?></h1>
-      <div class="detail-description"><?php echo $item["description"]; ?></div>
+    <div class="media-details mt-4 text-center">
+      <h1 class="text-center"><?php echo $item["title"]; ?></h1>
+      <div class="medium"> Media used: <?php echo $item["medium"]; ?></div>
+      <div class="detail-description mt-3"><?php echo $item["description"]; ?></div>
+      <input class="btn btn-type mt-3" type="button" value="Back" onclick="history.back()">
     </div>
   </div>
 </div>

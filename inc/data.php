@@ -9,14 +9,6 @@ $catalog[101] = [
   "year" => 2016,
 	"description" => "Martin had the opportunity to show off a potential user interface for a enterprise application. Martin built a 3d mockup using smart objects in photoshop to create a pixel perfect representation of a flat ui. The result was a great piece of marketing collateral for SharpHat to present to potential clients.",
   "category" => "UI",
-  "authors" => [
-      "Erich Gamma",
-      "Richard Helm",
-      "Ralph Johnson",
-      "John Vlissides"
-  ],
-    "publisher" => "Prentice Hall",
-    "isbn" => '978-0201633610'
 ];
 $catalog[102] = [
     "title" => "Surf Loactor Application",
@@ -40,7 +32,7 @@ $catalog[103] = [
     "type" => "UI / Application Dev",
     "medium" => "Medium: Photoshop and Illustrator",
     "year" => 1999,
-		"description" => "Martin had the opportunity to show off a potential user interface for a enterprise application. Martin built a 3d mockup using smart objects in photoshop to create a pixel perfect representation of a flat ui. The result was a great piece of marketing collateral for SharpHat to present to potential clients.",
+		"description" => "I had the opportunity to show off a potential user interface for a enterprise application. I built a 3d mockup using smart objects in photoshop to create a pixel perfect representation of a flat ui. The result was a great piece of marketing collateral for SharpHat to present to potential clients.",
     "category" => "UI",
     "authors" => [
         "Martin Fowler",
@@ -58,7 +50,7 @@ $catalog[104] = [
 		"img" => "img/media/ui-design-full.jpg",
     "type" => "UI / Application Dev",
     "medium" => "Medium: Photoshop and Illustrator",
-    "year" => 2011,
+    "year" => 2016,
 		"description" => "Martin had the opportunity to show off a potential user interface for a enterprise application. Martin built a 3d mockup using smart objects in photoshop to create a pixel perfect representation of a flat ui. The result was a great piece of marketing collateral for SharpHat to present to potential clients.",
     "category" => "UI",
     "authors" => [
@@ -156,13 +148,14 @@ $catalog[204] = [
 ];
 //Illustration
 $catalog[301] = [
-    "title" => "Beethoven: Complete Symphonies",
-    "img" => "img/media/beethoven.jpg",
-    "type" => "Clasical",
-    "medium" => "CD",
-    "year" => 2012,
+    "title" => "Inspiration",
+    "img" => "img/media/inspiration.jpg",
+    "type" => "illustration",
+		"crd_img" => "img/crd-img/inspiration-crd.jpg",
+    "medium" => "Mixed Media & Digital",
+    "year" => 2017,
     "category" => "illustration",
-    "artist" => "Ludwig van Beethoven"
+		"description" => "In the beginning of 2016 I was tasked with creating a visual representation of the moment of inspiration. Using tradition and digital illustration techniques I was able to create an elegant piece that combined elements of art neauvo and modern represenationalism."
 ];
 $catalog[302] = [
     "title" => "Elvis Forever",

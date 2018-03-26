@@ -23,21 +23,43 @@ if (isset($_GET["cat"])) {
 
  <main role="main">
 
+   <?php
+   if (isset($_GET["cat"])) {
+     if ($_GET["cat"] == "UI") {
+      echo '<div class="jumbotron-fluid jumbotron jumbotron-ui">
+         <div class="container">
+           <h1 class="display-3 text-center">UI</h1>
+           <p class="text-center">Increasing my focus on Web/UI developement in the past few years, I am constantly striving to bring rich immersive experiences into the digital realm.</p>
+         </div>
+       </div>';
+     } else if ($_GET["cat"] == "jumbotron-fluid jumbotron jumbotron-branding") {
+       echo '<div class="jumbotron">
+         <div class="container">
+           <h1 class="display-3 text-center">Branding</h1>
+           <p class="text-center">From strategy and initial mockups through print production, I have experience designing and managing all aspects of the print process.</p>
+         </div>
+       </div>';
+     } else if ($_GET["cat"] == "illustration") {
+       echo '<div class="jumbotron-fluid jumbotron jumbotron-illustration">
+         <div class="container">
+           <h1 class="display-3 text-center">Illustration</h1>
+           <p class="text-center">I have a passion for visualizing ideas and stories into full thematic works of art. Utilizing a mix of traditional and digital media my work has been used to create decals for surfboards, imagery for package design, and pieces for display in private collections.</p>
+         </div>
+       </div>';
+     }
+   }
+
+    ?>
+
   <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron">
-    <div class="container">
-      <h1 class="display-3">Hello, world!</h1>
-      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-    </div>
-  </div>
+
 
 <div class="section catalog page">
 
   <div class="container">
-    <h1><?php
+    <h1 class="breadcrumbs"><?php
     if($section != null){
-      echo "<a href='catalog.php'>Full Catalog</a> &gt; ";
+      echo "<a href='catalog.php'>Full Catalog</a> - ";
     }
     echo $pageTitle;
      ?></h1>

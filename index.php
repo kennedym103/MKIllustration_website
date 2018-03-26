@@ -9,11 +9,10 @@ $section = null;
  <main role="main">
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron">
+  <div class="jumbotron jumbotron-front">
     <div class="container">
-      <h1 class="display-3">Hello, world!</h1>
-      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      <h1 class="text-center">Inspiring UI & Engaging Design</h1>
+      <p class="text-center">Browse through some of my work below, I am always looking for feedback. Feel free to reach out to me via the contact section of this site.</p>
     </div>
   </div>
 		<div class="section catalog random">
