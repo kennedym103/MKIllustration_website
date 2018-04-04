@@ -11,7 +11,7 @@ if (isset($_GET["cat"])) {
     $pageTitle = "UI / Application Development";
     $section = "UI";
   } else if ($_GET["cat"] == "branding") {
-    $pageTitle = "Branding & Print Design";
+    $pageTitle = "Branding & Design";
     $section = "branding";
   } else if ($_GET["cat"] == "illustration") {
     $pageTitle = "Illustration";
@@ -32,11 +32,11 @@ if (isset($_GET["cat"])) {
            <p class="text-center">Increasing my focus on Web/UI developement in the past few years, I am constantly striving to bring rich immersive experiences into the digital realm.</p>
          </div>
        </div>';
-     } else if ($_GET["cat"] == "jumbotron-fluid jumbotron jumbotron-branding") {
-       echo '<div class="jumbotron">
+     } else if ($_GET["cat"] == "branding") {
+       echo '<div class="jumbotron-fluid jumbotron jumbotron-branding">
          <div class="container">
-           <h1 class="display-3 text-center">Branding</h1>
-           <p class="text-center">From strategy and initial mockups through print production, I have experience designing and managing all aspects of the print process.</p>
+           <h1 class="display-3 text-center">Branding & Design</h1>
+           <p class="text-center">From strategy and initial mockups through production, I have experience designing and managing all aspects of the branding process.</p>
          </div>
        </div>';
      } else if ($_GET["cat"] == "illustration") {
@@ -57,12 +57,12 @@ if (isset($_GET["cat"])) {
 <div class="section catalog page">
 
   <div class="container">
-    <h1 class="breadcrumbs"><?php
+    <h2 class="breadcrumbs"><?php
     if($section != null){
       echo "<a href='catalog.php'>Full Catalog</a> - ";
     }
     echo $pageTitle;
-     ?></h1>
+     ?></h2>
     <ul class="row">
       <?php $categories = array_category($catalog, $section);
        foreach($categories as $id){

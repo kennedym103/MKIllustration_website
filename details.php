@@ -35,7 +35,7 @@ $section = null;
     </div>
     <div class="media-details mt-4 text-center">
       <h1 class="text-center"><?php echo $item["title"]; ?></h1>
-      <div class="medium"> Media used: <?php echo $item["medium"]; ?></div>
+      <div class="medium"> <?php echo $item["medium"]; ?></div>
       <div class="detail-description mt-3"><?php echo $item["description"]; ?></div>
       <input class="btn btn-type mt-3" type="button" value="Back" onclick="history.back()">
     </div>

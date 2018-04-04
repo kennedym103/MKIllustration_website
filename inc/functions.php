@@ -1,6 +1,6 @@
 <?php
 function get_item_html($id, $item) {
-  $output =  "<li class='card float-left mr-auto mt-4' style='width: 18rem;'> <a class='card-img-container' href='details.php?id="
+  $output =  "<li class='card float-left mr-4 ml-4 mt-4' style='width: 18rem;'> <a class='card-img-container' href='details.php?id="
   . $id . "'><img class='card-img-top img-fluid' src='"
   . $item["crd_img"] . "' alt='"
   . $item["title"] . "'/>"
