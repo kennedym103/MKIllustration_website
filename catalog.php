@@ -47,6 +47,13 @@ if (isset($_GET["cat"])) {
          </div>
        </div>';
      }
+   } else {
+     echo '<div class="jumbotron jumbotron-front">
+       <div class="container">
+         <h1 class="text-center">Inspiring UI & Engaging Design</h1>
+         <p class="text-center">Browse through some of my work below, I am always looking for feedback. Feel free to reach out to me via the contact section of this site.</p>
+       </div>
+     </div>';
    }
 
     ?>

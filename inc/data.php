@@ -109,30 +109,23 @@ $catalog[301] = [
 		"description" => "In the beginning of 2016 I was tasked with creating a visual representation of the moment of inspiration. Using tradition and digital illustration techniques I was able to create an elegant piece that combined elements of art neauvo and modern represenationalism."
 ];
 $catalog[302] = [
-    "title" => "Elvis Forever",
-    "img" => "img/media/elvis_presley.jpg",
-    "type" => "Rock",
-    "medium" => "Vinyl",
-    "year" => 2015,
-    "category" => "illustration",
-    "artist" => "Elvis Presley"
+	"title" => "Character Study",
+	"img" => "img/media/businessman.jpg",
+	"type" => "illustration",
+	"crd_img" => "img/crd-img/illustration-businessman-crd.jpg",
+	"medium" => "Mixed Media & Digital",
+	"year" => 2016,
+	"category" => "illustration",
+	"description" => "In 2016 I set out to create characters for a series of illustrations that combined animal characteristics with professions. I created a series that placed these characters in normal everyday situations typical for an individual in that line of work but with the anthropromorphized animal represenations for each character. The result was dynamic and evocative."
 ];
 $catalog[303] = [
-    "title" => "No Fences",
-    "img" => "img/media/garth_brooks.jpg",
-    "type" => "Country",
-    "medium" => "Cassette",
-    "year" => 1990,
-    "category" => "illustration",
-    "artist" => "Garth Brooks"
-];
-$catalog[304] = [
-    "title" => "The Very Thought of You",
-    "img" => "img/media/nat_king_cole.jpg",
-    "type" => "Jaz",
-    "medium" => "MP3",
-    "year" => 2008,
-    "category" => "illustration",
-    "artist" => "Nat King Cole"
+	"title" => "Mouse",
+	"img" => "img/media/mouse.jpg",
+	"type" => "illustration",
+	"crd_img" => "img/crd-img/illustration-mouse-crd.jpg",
+	"medium" => "Mixed Media & Digital",
+	"year" => 2016,
+	"category" => "illustration",
+	"description" => "A study that was completed in late 2016. I utilized digital illustration techniques to create a surreal represenation of a door mouse."
 ];
 ?>

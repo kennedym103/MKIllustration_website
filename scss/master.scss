@@ -235,6 +235,19 @@ form td {
   }
 }
 
+////// SVG ANIMATIONS //////
+
+.svg-container {
+   width: 65%;
+   padding-bottom: 35px;
+   height: 20px;
+}
+
+.svg-container1 {
+   width: 25%;
+   height: 20px;
+}
+
 
 @media (max-width: 768px) {
   .card {
