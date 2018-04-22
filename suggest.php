@@ -76,9 +76,10 @@ $section = "suggest";
 
 include("inc/header.php"); ?>
 
-<div class="section page">
-    <div class="container">
-        <h1>Suggest a Media Item</h1>
+    <div class="container contact-page">
+        <div class="col-xs-2">
+        </div>
+        <div class="col-xs-8">
         <?php if (isset($_GET["status"]) && $_GET["status"] == "thanks") {
             echo "<p>Thanks for the email! I&rsquo;ll check out your suggestion shortly!</p>";
         } else { ?>
@@ -106,6 +107,8 @@ include("inc/header.php"); ?>
             <input class="btn-submit" type="submit" value="Send" />
         </form>
         <?php } ?>
+    </div>
+    <div class="col-xs-2">
     </div>
 </div>
 

@@ -711,6 +711,4 @@ form input[type="submit"] {
 .footer ul li:after {content:" | "}
 .footer ul li:last-child:after {content:"";}
 .footer p {margin: 0; padding-right: 3px;}
-.footer a {text-decoration: none; color: #539def; margin: 0 10px;}
 .footer li:first-child a {margin-left: 4px;}
-.footer a:hover, .footer a:active {text-decoration: underline;}

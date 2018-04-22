@@ -22,18 +22,17 @@ $.ajax({
       var height = data[5].swell.maxBreakingHeight ;
       var period = data[5].swell.components.combined.period;
       var wind = data[5].wind.compassDirection;
-      $('#surf-height').html(height + '<span> FT</span>');
-      $('#surf-period').html(period  + '<span> SECONDS</span>');
+      $('#surf-height').html(height + '<span> ft</span>');
+      $('#surf-period').html(period  + '<span> seconds</span>');
       $('#wind-direction').html(wind);
 
       if((height < 3) ||
          (period < 7) ||
          (wind === "SSW" || wind === "S"  || wind === "SSE" || wind === "SE" || wind === "ESE" || wind === "E" || wind === "ENE" || wind === "NE" || wind === "N" || wind === "NNW" )) {
-          $('#surf-work-message').html("THE SURF IN NEW JERSEY ISN'T THAT GREAT SO MARTIN IS PROBABLY AT WORK.");
+          $('#surf-work-message').html("The surf in New Jersey isn't that great so I am probably at work.");
       }
       else {
-          $('#surf-work-message').html("THE SURF IN NEW JERSEY IS LOOKING GOOD MARTIN HAS PADDLED OUT.");
-
+          $('#surf-work-message').html("The surf in New Jersey is looking good I probably have paddled out.");
       }
     }
 });
